@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+      "@/assets/*": [
+        "./assets/*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.js",
+    "**/*.jsx",
+    ".expo/types/**/*.js",
+    "expo-env.d.js"
+, "src/app/_layout.jsx", "src/app/explore.jsx", "src/app/index.jsx", "src/components/animated-icon.jsx", "src/components/app-tabs.jsx", "src/components/app-tabs.web.jsx", "src/components/external-link.jsx", "src/components/hint-row.jsx", "src/components/themed-text.jsx", "src/components/themed-view.jsx", "src/components/web-badge.jsx", "src/constants/theme.js", "src/hooks/use-color-scheme.jsx", "src/hooks/use-color-scheme.web.jsx", "src/hooks/use-theme.jsx"  ]
+}
