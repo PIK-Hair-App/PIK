@@ -1,0 +1,12 @@
+CREATE DATABSE PIK;
+
+USE PIK;
+
+CREATE TABLE users (
+    name VARCHAR(100),
+    upload MEDIUMBLOB
+);
+
+CREATE TABLE images (
+    image MEDIUMBLOB
+);
